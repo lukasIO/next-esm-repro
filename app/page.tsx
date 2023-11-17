@@ -1,4 +1,6 @@
-/** Add your relevant code here for the issue to reproduce */
+import { Foo } from "esm-dummy";
+
 export default function Home() {
-  return null
+  console.log(new Foo().working);
+  return null;
 }
